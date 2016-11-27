@@ -1,0 +1,5 @@
+chord.main.class=com.laneve.test.buildNetwork.ClassicDeadlock
+chord.class.path=bin/
+chord.src.path=src/
+
+

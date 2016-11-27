@@ -1,0 +1,6 @@
+chord.main.class=elevator.Elevator
+chord.class.path=bin/
+chord.src.path=src/
+
+chord.check.exclude=java,com,sun,sunw,javax,launcher,org
+chord.scope.exclude=java,com,sun,sunw,javax,launcher,org
