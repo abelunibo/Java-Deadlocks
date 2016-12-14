@@ -225,3 +225,49 @@ public class Test{
 		
 	}
 }
+
+//package deadlockExamples;
+//
+//public class Program {
+//
+//	public static void main(String[] args){
+//		
+//		Object a = new  Object();
+//		Object b = new Object();
+//				
+//		Thread[] threads = new Thread[2];
+//		
+//		threads[0] = new Thread(){
+//			@Override
+//			public void run() {
+//				synchronized ( a) {
+//					
+//				}
+//			}
+//		};
+//		
+//		startAll(threads);
+//		
+//		joinAll(a, threads);		
+//	}
+//
+//	protected static void joinAll(Object a, Thread[] threads) {
+//		for (int i = 0; i < threads.length; i++) {
+//			synchronized (a) {
+//				try {
+//					threads[i].join();
+//				} catch (InterruptedException e) {
+//					// TODO Auto-generated catch block
+//					e.printStackTrace();
+//				}
+//			}
+//		}
+//	}
+//
+//	protected static void startAll(Thread[] threads) {
+//		for (int i = 0; i < threads.length; i++) {
+//			threads[i].start();
+//		}
+//	}
+//	
+//}

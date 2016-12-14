@@ -7,7 +7,7 @@ public class Network {
 		}
 	}
 
-	public void build(int n, final Object x, final Object y) {
+	public void buildNetwork(int n, final Object x, final Object y) {
 		if (n == 0) {
 			this.takeLocks(x, y);
 		} else {
@@ -18,19 +18,31 @@ public class Network {
 				}
 			};
 			thr.start();
-			this.build(n - 1, z, y);
+			this.buildNetwork(n - 1, z, y);
 		}
 	}
 
 	public static void main(String[] args) {
 
 		Network bn = new Network();
+		
 		Object x = new Object();		
-		bn.build(1, x, x); // deadlock
+		bn.buildNetwork(1, x, x); // deadlock
 		
 		//Object y = new Object();
-		//cd.BuildNetwork(1, x, y); // no deadlock
+		//bn.buildNetwork(1, x, y); // no deadlock
 	}
+	
+//	public void main(int n) {
+//
+//		Object x = new Object();	
+//		Object y = new Object();
+//		
+//		buildNetwork(n, x, x); // deadlock
+//		
+//		//Object y = new Object();
+//		//bn.buildNetwork(1, x, x); // no deadlock
+//	}
 
 }
 
