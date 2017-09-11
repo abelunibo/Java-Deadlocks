@@ -1,16 +1,73 @@
 package deadlockExamples;
 
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.TimeUnit;
+public class Test{
+	
+	public static void main(String[] args){
+		
+		final Object a = new Object(),b = new Object();
+		
+//		Thread t1 = new Thread(new A(a, b));
+//		Thread t2 = new Thread(new A(b, a));
+//		
+		Thread t1 = new Thread(){
+			@Override
+			public void run() {
+				A r1 = new A(a, b);
+				r1.run();
+			}
+		};
 
-import javax.swing.JFileChooser;
-import javax.swing.UIManager;
-import javax.swing.UnsupportedLookAndFeelException;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.PlainDocument;
 
+		Thread t2 = new Thread(){
+			@Override
+			public void run() {
+				A r1 = new A(b, a);
+				r1.run();
+			}
+		};
+		
+		
+		t1.start();
+		t2.start();
+		
+	}
+}
+
+class A implements Runnable{
+
+	Object a,b;
+	
+	public A(Object a, Object b){
+		this.a = a;
+		this.b = b;
+	}
+	
+	@Override
+	public void run() {
+		synchronized (a) {
+			synchronized (b) {
+				
+			}
+		}
+	}
+	
+}
+
+//public class Test{
+//	
+//	public static void main(String[] args){
+//		
+//		Object a = new Object(),b = new Object();
+//		for(int i = 0; i < 10; i++){
+//			synchronized (a) {
+//				synchronized (b) {
+//					
+//				}
+//			}
+//		}
+//		
+//	}
+//}
 ////static constructors test
 //public class Test {
 //
@@ -185,46 +242,46 @@ import javax.swing.text.PlainDocument;
 //	}
 //}
 
-public class Test{
-	
-	public static Object a = new Object();	
-	public static Object b = new Object();	
-	
-	public static void main(String[] args){
-		final Thread t = new Thread(){
-			public void run() {
-				synchronized (b) {
-				synchronized (a) {
-					
-						Thread t2 = new Thread(){
-							public void run() {
-								
-								synchronized (b) {
-									a.notifyAll();
-								}
-							};
-						};
-						t2.start();
-						try {
-							a.wait();
-						} catch (InterruptedException e) {
-							// TODO Auto-generated catch block
-							e.printStackTrace();
-						}
-				
-
-					
-				}
-				}
-			};
-		};		
-		
-		
-		
-		t.start();
-		
-	}
-}
+//public class Test{
+//	
+//	public static Object a = new Object();	
+//	public static Object b = new Object();	
+//	
+//	public static void main(String[] args){
+//		final Thread t = new Thread(){
+//			public void run() {
+//				synchronized (b) {
+//				synchronized (a) {
+//					
+//						Thread t2 = new Thread(){
+//							public void run() {
+//								
+//								synchronized (b) {
+//									a.notifyAll();
+//								}
+//							};
+//						};
+//						t2.start();
+//						try {
+//							a.wait();
+//						} catch (InterruptedException e) {
+//							// TODO Auto-generated catch block
+//							e.printStackTrace();
+//						}
+//				
+//
+//					
+//				}
+//				}
+//			};
+//		};		
+//		
+//		
+//		
+//		t.start();
+//		
+//	}
+//}
 
 //package deadlockExamples;
 //

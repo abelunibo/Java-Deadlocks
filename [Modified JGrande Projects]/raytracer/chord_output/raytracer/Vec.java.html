@@ -1,0 +1,209 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../stylesheet.css" TITLE="Style">
+<META NAME="GENERATOR" CONTENT="Java2HTML Version 1.5">
+<TITLE>raytracer.Vec (Java2HTML)</TITLE>
+</HEAD>
+<BODY><TABLE id="Header" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" width="33%">&nbsp;</td>
+<td align="center" colspan="2" width="33%">
+<font size="4">Vec.java</font>
+</td>
+<td align="right" colspan="2" width="33%">&nbsp;</td>
+</tr>
+</TABLE>
+<pre ID="Classes">
+<FONT ID="LN">1   </FONT><A NAME="1"></A><FONT ID="FormalComment">/**************************************************************************
+<FONT ID="LN">2   </FONT><A NAME="2"></A>*                                                                         *
+<FONT ID="LN">3   </FONT><A NAME="3"></A>*         Java Grande Forum Benchmark Suite - Thread Version 1.0          *
+<FONT ID="LN">4   </FONT><A NAME="4"></A>*                                                                         *
+<FONT ID="LN">5   </FONT><A NAME="5"></A>*                            produced by                                  *
+<FONT ID="LN">6   </FONT><A NAME="6"></A>*                                                                         *
+<FONT ID="LN">7   </FONT><A NAME="7"></A>*                  Java Grande Benchmarking Project                       *
+<FONT ID="LN">8   </FONT><A NAME="8"></A>*                                                                         *
+<FONT ID="LN">9   </FONT><A NAME="9"></A>*                                at                                       *
+<FONT ID="LN">10  </FONT><A NAME="10"></A>*                                                                         *
+<FONT ID="LN">11  </FONT><A NAME="11"></A>*                Edinburgh Parallel Computing Centre                      *
+<FONT ID="LN">12  </FONT><A NAME="12"></A>*                                                                         *
+<FONT ID="LN">13  </FONT><A NAME="13"></A>*                email: epcc-javagrande@epcc.ed.ac.uk                     *
+<FONT ID="LN">14  </FONT><A NAME="14"></A>*                                                                         *
+<FONT ID="LN">15  </FONT><A NAME="15"></A>*                 Original version of this code by                        *
+<FONT ID="LN">16  </FONT><A NAME="16"></A>*            Florian Doyon (Florian.Doyon@sophia.inria.fr)                *
+<FONT ID="LN">17  </FONT><A NAME="17"></A>*              and  Wilfried Klauser (wklauser@acm.org)                   *
+<FONT ID="LN">18  </FONT><A NAME="18"></A>*                                                                         *
+<FONT ID="LN">19  </FONT><A NAME="19"></A>*      This version copyright (c) The University of Edinburgh, 2001.      *
+<FONT ID="LN">20  </FONT><A NAME="20"></A>*                         All rights reserved.                            *
+<FONT ID="LN">21  </FONT><A NAME="21"></A>*                                                                         *
+<FONT ID="LN">22  </FONT><A NAME="22"></A>**************************************************************************/</FONT>
+<FONT ID="LN">23  </FONT><A NAME="23"></A>
+<FONT ID="LN">24  </FONT><A NAME="24"></A>
+<FONT ID="LN">25  </FONT><A NAME="25"></A><FONT ID="Package">package</FONT> raytracer;
+<FONT ID="LN">26  </FONT><A NAME="26"></A>
+<FONT ID="LN">27  </FONT><A NAME="27"></A>
+<FONT ID="LN">28  </FONT><A NAME="28"></A><FONT ID="FormalComment">/**
+<FONT ID="LN">29  </FONT><A NAME="29"></A> * This class reflects the 3d vectors used in 3d computations
+<FONT ID="LN">30  </FONT><A NAME="30"></A> */</FONT>
+<FONT ID="LN">31  </FONT><A NAME="31"></A><FONT ID="Public">public</FONT> <FONT ID="Class">class</FONT> Vec <FONT ID="Implements">implements</FONT> java.io.Serializable {
+<FONT ID="LN">32  </FONT><A NAME="32"></A>
+<FONT ID="LN">33  </FONT><A NAME="33"></A>  <FONT ID="FormalComment">/**
+<FONT ID="LN">34  </FONT><A NAME="34"></A>   * The x coordinate
+<FONT ID="LN">35  </FONT><A NAME="35"></A>   */</FONT>
+<FONT ID="LN">36  </FONT><A NAME="36"></A>  <FONT ID="Public">public</FONT> <FONT ID="Double">double</FONT> x; 
+<FONT ID="LN">37  </FONT><A NAME="37"></A>
+<FONT ID="LN">38  </FONT><A NAME="38"></A>  <FONT ID="FormalComment">/**
+<FONT ID="LN">39  </FONT><A NAME="39"></A>   * The y coordinate
+<FONT ID="LN">40  </FONT><A NAME="40"></A>   */</FONT>
+<FONT ID="LN">41  </FONT><A NAME="41"></A>  <FONT ID="Public">public</FONT> <FONT ID="Double">double</FONT> y;
+<FONT ID="LN">42  </FONT><A NAME="42"></A>
+<FONT ID="LN">43  </FONT><A NAME="43"></A>  <FONT ID="FormalComment">/**
+<FONT ID="LN">44  </FONT><A NAME="44"></A>   * The z coordinate
+<FONT ID="LN">45  </FONT><A NAME="45"></A>   */</FONT>
+<FONT ID="LN">46  </FONT><A NAME="46"></A>  <FONT ID="Public">public</FONT> <FONT ID="Double">double</FONT> z;
+<FONT ID="LN">47  </FONT><A NAME="47"></A>
+<FONT ID="LN">48  </FONT><A NAME="48"></A>  <FONT ID="FormalComment">/**
+<FONT ID="LN">49  </FONT><A NAME="49"></A>   * Constructor
+<FONT ID="LN">50  </FONT><A NAME="50"></A>   * @param a the x coordinate
+<FONT ID="LN">51  </FONT><A NAME="51"></A>   * @param b the y coordinate
+<FONT ID="LN">52  </FONT><A NAME="52"></A>   * @param c the z coordinate
+<FONT ID="LN">53  </FONT><A NAME="53"></A>   */</FONT>
+<FONT ID="LN">54  </FONT><A NAME="54"></A>  <FONT ID="Public">public</FONT> Vec(<FONT ID="Double">double</FONT> a, <FONT ID="Double">double</FONT> b, <FONT ID="Double">double</FONT> c) {
+<FONT ID="LN">55  </FONT><A NAME="55"></A>    x = a;
+<FONT ID="LN">56  </FONT><A NAME="56"></A>    y = b;
+<FONT ID="LN">57  </FONT><A NAME="57"></A>    z = c;
+<FONT ID="LN">58  </FONT><A NAME="58"></A>  }
+<FONT ID="LN">59  </FONT><A NAME="59"></A>
+<FONT ID="LN">60  </FONT><A NAME="60"></A>  <FONT ID="FormalComment">/**
+<FONT ID="LN">61  </FONT><A NAME="61"></A>   * Copy constructor
+<FONT ID="LN">62  </FONT><A NAME="62"></A>   */</FONT>
+<FONT ID="LN">63  </FONT><A NAME="63"></A>  <FONT ID="Public">public</FONT> Vec(<A HREF="../raytracer/Vec.java.html">Vec</A> a) {
+<FONT ID="LN">64  </FONT><A NAME="64"></A>    x = a.x;
+<FONT ID="LN">65  </FONT><A NAME="65"></A>    y = a.y;
+<FONT ID="LN">66  </FONT><A NAME="66"></A>    z = a.z;
+<FONT ID="LN">67  </FONT><A NAME="67"></A>  }
+<FONT ID="LN">68  </FONT><A NAME="68"></A>  <FONT ID="FormalComment">/**
+<FONT ID="LN">69  </FONT><A NAME="69"></A>   * Default (0,0,0) constructor
+<FONT ID="LN">70  </FONT><A NAME="70"></A>   */</FONT>
+<FONT ID="LN">71  </FONT><A NAME="71"></A>  <FONT ID="Public">public</FONT> Vec() {
+<FONT ID="LN">72  </FONT><A NAME="72"></A>    x = <FONT ID="FloatPointLiteral">0.0</FONT>;
+<FONT ID="LN">73  </FONT><A NAME="73"></A>    y = <FONT ID="FloatPointLiteral">0.0</FONT>; 
+<FONT ID="LN">74  </FONT><A NAME="74"></A>    z = <FONT ID="FloatPointLiteral">0.0</FONT>;
+<FONT ID="LN">75  </FONT><A NAME="75"></A>  }
+<FONT ID="LN">76  </FONT><A NAME="76"></A>
+<FONT ID="LN">77  </FONT><A NAME="77"></A>  <FONT ID="FormalComment">/**
+<FONT ID="LN">78  </FONT><A NAME="78"></A>   * Add a vector to the current vector
+<FONT ID="LN">79  </FONT><A NAME="79"></A>   * @param: a The vector to be added
+<FONT ID="LN">80  </FONT><A NAME="80"></A>   */</FONT>
+<FONT ID="LN">81  </FONT><A NAME="81"></A>  <FONT ID="Public">public</FONT> <FONT ID="Final">final</FONT> <FONT ID="Void">void</FONT> add(<A HREF="../raytracer/Vec.java.html">Vec</A> a) {
+<FONT ID="LN">82  </FONT><A NAME="82"></A>    x+=a.x;
+<FONT ID="LN">83  </FONT><A NAME="83"></A>    y+=a.y;
+<FONT ID="LN">84  </FONT><A NAME="84"></A>    z+=a.z;
+<FONT ID="LN">85  </FONT><A NAME="85"></A>  }  
+<FONT ID="LN">86  </FONT><A NAME="86"></A>
+<FONT ID="LN">87  </FONT><A NAME="87"></A>  <FONT ID="FormalComment">/**
+<FONT ID="LN">88  </FONT><A NAME="88"></A>   * adds: Returns a new vector such as
+<FONT ID="LN">89  </FONT><A NAME="89"></A>   * new = sA + B
+<FONT ID="LN">90  </FONT><A NAME="90"></A>   */</FONT>
+<FONT ID="LN">91  </FONT><A NAME="91"></A>  <FONT ID="Public">public</FONT> <FONT ID="Static">static</FONT> <A HREF="../raytracer/Vec.java.html">Vec</A> adds(<FONT ID="Double">double</FONT> s, <A HREF="../raytracer/Vec.java.html">Vec</A> a, <A HREF="../raytracer/Vec.java.html">Vec</A> b) {
+<FONT ID="LN">92  </FONT><A NAME="92"></A>    <FONT ID="Return">return</FONT> <FONT ID="New">new</FONT> <A HREF="../raytracer/Vec.java.html">Vec</A>(s * a.x + b.x, s * a.y + b.y, s * a.z + b.z);
+<FONT ID="LN">93  </FONT><A NAME="93"></A>  }
+<FONT ID="LN">94  </FONT><A NAME="94"></A>    
+<FONT ID="LN">95  </FONT><A NAME="95"></A>  <FONT ID="FormalComment">/**
+<FONT ID="LN">96  </FONT><A NAME="96"></A>   * Adds vector such as:
+<FONT ID="LN">97  </FONT><A NAME="97"></A>   * this+=sB
+<FONT ID="LN">98  </FONT><A NAME="98"></A>   * @param: s The multiplier
+<FONT ID="LN">99  </FONT><A NAME="99"></A>   * @param: b The vector to be added
+<FONT ID="LN">100 </FONT><A NAME="100"></A>   */</FONT>
+<FONT ID="LN">101 </FONT><A NAME="101"></A>  <FONT ID="Public">public</FONT> <FONT ID="Final">final</FONT> <FONT ID="Void">void</FONT> adds(<FONT ID="Double">double</FONT> s,<A HREF="../raytracer/Vec.java.html">Vec</A> b){
+<FONT ID="LN">102 </FONT><A NAME="102"></A>      x+=s*b.x;
+<FONT ID="LN">103 </FONT><A NAME="103"></A>      y+=s*b.y;
+<FONT ID="LN">104 </FONT><A NAME="104"></A>      z+=s*b.z;
+<FONT ID="LN">105 </FONT><A NAME="105"></A>  }
+<FONT ID="LN">106 </FONT><A NAME="106"></A>
+<FONT ID="LN">107 </FONT><A NAME="107"></A>  <FONT ID="FormalComment">/**
+<FONT ID="LN">108 </FONT><A NAME="108"></A>   * Substracs two vectors
+<FONT ID="LN">109 </FONT><A NAME="109"></A>   */</FONT>
+<FONT ID="LN">110 </FONT><A NAME="110"></A>  <FONT ID="Public">public</FONT> <FONT ID="Static">static</FONT> <A HREF="../raytracer/Vec.java.html">Vec</A> sub(<A HREF="../raytracer/Vec.java.html">Vec</A> a, <A HREF="../raytracer/Vec.java.html">Vec</A> b) {
+<FONT ID="LN">111 </FONT><A NAME="111"></A>    <FONT ID="Return">return</FONT> <FONT ID="New">new</FONT> <A HREF="../raytracer/Vec.java.html">Vec</A>(a.x - b.x, a.y - b.y, a.z - b.z);
+<FONT ID="LN">112 </FONT><A NAME="112"></A>  }
+<FONT ID="LN">113 </FONT><A NAME="113"></A>
+<FONT ID="LN">114 </FONT><A NAME="114"></A>  <FONT ID="FormalComment">/**
+<FONT ID="LN">115 </FONT><A NAME="115"></A>   * Substracts two vects and places the results in the current vector
+<FONT ID="LN">116 </FONT><A NAME="116"></A>   * Used for speedup with local variables -there were too much Vec to be gc'ed
+<FONT ID="LN">117 </FONT><A NAME="117"></A>   * Consumes about 10 units, whether sub consumes nearly 999 units!! 
+<FONT ID="LN">118 </FONT><A NAME="118"></A>   * cf thinking in java p. 831,832
+<FONT ID="LN">119 </FONT><A NAME="119"></A>   */</FONT>
+<FONT ID="LN">120 </FONT><A NAME="120"></A>  <FONT ID="Public">public</FONT> <FONT ID="Final">final</FONT> <FONT ID="Void">void</FONT> sub2(<A HREF="../raytracer/Vec.java.html">Vec</A> a,<A HREF="../raytracer/Vec.java.html">Vec</A> b) {
+<FONT ID="LN">121 </FONT><A NAME="121"></A>    <FONT ID="This">this</FONT>.x=a.x-b.x;
+<FONT ID="LN">122 </FONT><A NAME="122"></A>    <FONT ID="This">this</FONT>.y=a.y-b.y;
+<FONT ID="LN">123 </FONT><A NAME="123"></A>    <FONT ID="This">this</FONT>.z=a.z-b.z;
+<FONT ID="LN">124 </FONT><A NAME="124"></A>  }
+<FONT ID="LN">125 </FONT><A NAME="125"></A>
+<FONT ID="LN">126 </FONT><A NAME="126"></A>  <FONT ID="Public">public</FONT> <FONT ID="Static">static</FONT> <A HREF="../raytracer/Vec.java.html">Vec</A> mult(<A HREF="../raytracer/Vec.java.html">Vec</A> a, <A HREF="../raytracer/Vec.java.html">Vec</A> b) {
+<FONT ID="LN">127 </FONT><A NAME="127"></A>    <FONT ID="Return">return</FONT> <FONT ID="New">new</FONT> <A HREF="../raytracer/Vec.java.html">Vec</A>(a.x * b.x, a.y * b.y, a.z * b.z);
+<FONT ID="LN">128 </FONT><A NAME="128"></A>  }
+<FONT ID="LN">129 </FONT><A NAME="129"></A>
+<FONT ID="LN">130 </FONT><A NAME="130"></A>  <FONT ID="Public">public</FONT> <FONT ID="Static">static</FONT> <A HREF="../raytracer/Vec.java.html">Vec</A> cross(<A HREF="../raytracer/Vec.java.html">Vec</A> a, <A HREF="../raytracer/Vec.java.html">Vec</A> b) {
+<FONT ID="LN">131 </FONT><A NAME="131"></A>    <FONT ID="Return">return</FONT>
+<FONT ID="LN">132 </FONT><A NAME="132"></A>      <FONT ID="New">new</FONT> <A HREF="../raytracer/Vec.java.html">Vec</A>(a.y*b.z - a.z*b.y,
+<FONT ID="LN">133 </FONT><A NAME="133"></A>          a.z*b.x - a.x*b.z,
+<FONT ID="LN">134 </FONT><A NAME="134"></A>          a.x*b.y - a.y*b.x);
+<FONT ID="LN">135 </FONT><A NAME="135"></A>  }
+<FONT ID="LN">136 </FONT><A NAME="136"></A>
+<FONT ID="LN">137 </FONT><A NAME="137"></A>  <FONT ID="Public">public</FONT> <FONT ID="Static">static</FONT> <FONT ID="Double">double</FONT> dot(<A HREF="../raytracer/Vec.java.html">Vec</A> a, <A HREF="../raytracer/Vec.java.html">Vec</A> b) {
+<FONT ID="LN">138 </FONT><A NAME="138"></A>    <FONT ID="Return">return</FONT> a.x*b.x + a.y*b.y + a.z*b.z;
+<FONT ID="LN">139 </FONT><A NAME="139"></A>  }
+<FONT ID="LN">140 </FONT><A NAME="140"></A>
+<FONT ID="LN">141 </FONT><A NAME="141"></A>  <FONT ID="Public">public</FONT> <FONT ID="Static">static</FONT> <A HREF="../raytracer/Vec.java.html">Vec</A> comb(<FONT ID="Double">double</FONT> a, <A HREF="../raytracer/Vec.java.html">Vec</A> A, <FONT ID="Double">double</FONT> b, <A HREF="../raytracer/Vec.java.html">Vec</A> B) {
+<FONT ID="LN">142 </FONT><A NAME="142"></A>    <FONT ID="Return">return</FONT>
+<FONT ID="LN">143 </FONT><A NAME="143"></A>      <FONT ID="New">new</FONT> <A HREF="../raytracer/Vec.java.html">Vec</A>(a * A.x + b * B.x,
+<FONT ID="LN">144 </FONT><A NAME="144"></A>          a * A.y + b * B.y,
+<FONT ID="LN">145 </FONT><A NAME="145"></A>          a * A.z + b * B.z);
+<FONT ID="LN">146 </FONT><A NAME="146"></A>  }
+<FONT ID="LN">147 </FONT><A NAME="147"></A>
+<FONT ID="LN">148 </FONT><A NAME="148"></A>  <FONT ID="Public">public</FONT> <FONT ID="Final">final</FONT> <FONT ID="Void">void</FONT> comb2(<FONT ID="Double">double</FONT> a,<A HREF="../raytracer/Vec.java.html">Vec</A> A,<FONT ID="Double">double</FONT> b,<A HREF="../raytracer/Vec.java.html">Vec</A> B) {
+<FONT ID="LN">149 </FONT><A NAME="149"></A>    x=a * A.x + b * B.x;
+<FONT ID="LN">150 </FONT><A NAME="150"></A>    y=a * A.y + b * B.y;
+<FONT ID="LN">151 </FONT><A NAME="151"></A>    z=a * A.z + b * B.z;      
+<FONT ID="LN">152 </FONT><A NAME="152"></A>  }
+<FONT ID="LN">153 </FONT><A NAME="153"></A>
+<FONT ID="LN">154 </FONT><A NAME="154"></A>  <FONT ID="Public">public</FONT> <FONT ID="Final">final</FONT> <FONT ID="Void">void</FONT> scale(<FONT ID="Double">double</FONT> t) {
+<FONT ID="LN">155 </FONT><A NAME="155"></A>    x *= t;
+<FONT ID="LN">156 </FONT><A NAME="156"></A>    y *= t;
+<FONT ID="LN">157 </FONT><A NAME="157"></A>    z *= t;
+<FONT ID="LN">158 </FONT><A NAME="158"></A>  }
+<FONT ID="LN">159 </FONT><A NAME="159"></A>
+<FONT ID="LN">160 </FONT><A NAME="160"></A>  <FONT ID="Public">public</FONT> <FONT ID="Final">final</FONT> <FONT ID="Void">void</FONT> negate() {
+<FONT ID="LN">161 </FONT><A NAME="161"></A>    x = -x;
+<FONT ID="LN">162 </FONT><A NAME="162"></A>    y = -y;
+<FONT ID="LN">163 </FONT><A NAME="163"></A>    z = -z;
+<FONT ID="LN">164 </FONT><A NAME="164"></A>  }
+<FONT ID="LN">165 </FONT><A NAME="165"></A>
+<FONT ID="LN">166 </FONT><A NAME="166"></A>  <FONT ID="Public">public</FONT> <FONT ID="Final">final</FONT> <FONT ID="Double">double</FONT> normalize() {
+<FONT ID="LN">167 </FONT><A NAME="167"></A>    <FONT ID="Double">double</FONT> len;
+<FONT ID="LN">168 </FONT><A NAME="168"></A>    len = Math.sqrt(x*x + y*y + z*z);
+<FONT ID="LN">169 </FONT><A NAME="169"></A>    <FONT ID="If">if</FONT> (len &gt; <FONT ID="FloatPointLiteral">0.0</FONT>) {
+<FONT ID="LN">170 </FONT><A NAME="170"></A>      x /= len;
+<FONT ID="LN">171 </FONT><A NAME="171"></A>      y /= len;
+<FONT ID="LN">172 </FONT><A NAME="172"></A>      z /= len;
+<FONT ID="LN">173 </FONT><A NAME="173"></A>    }
+<FONT ID="LN">174 </FONT><A NAME="174"></A>    <FONT ID="Return">return</FONT> len;
+<FONT ID="LN">175 </FONT><A NAME="175"></A>  }
+<FONT ID="LN">176 </FONT><A NAME="176"></A>
+<FONT ID="LN">177 </FONT><A NAME="177"></A>  <FONT ID="Public">public</FONT> <FONT ID="Final">final</FONT> String toString() {
+<FONT ID="LN">178 </FONT><A NAME="178"></A>    <FONT ID="Return">return</FONT> <FONT ID="StringLiteral">"&lt;"</FONT> + x + <FONT ID="StringLiteral">","</FONT> + y + <FONT ID="StringLiteral">","</FONT> + z + <FONT ID="StringLiteral">"&gt;"</FONT>;
+<FONT ID="LN">179 </FONT><A NAME="179"></A>  }
+<FONT ID="LN">180 </FONT><A NAME="180"></A>}
+<FONT ID="LN">181 </FONT><A NAME="181"></A></pre><TABLE id="Header" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" width="33%">&nbsp;</td>
+<td align="center" colspan="2" width="33%">
+<font size="4">Vec.java</font>
+</td>
+<td align="right" colspan="2" width="33%">&nbsp;</td>
+</tr>
+</TABLE>
+
+</BODY>
+</HTML>

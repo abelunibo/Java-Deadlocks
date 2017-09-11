@@ -1,0 +1,4 @@
+null
+main:([Ljava/lang/String;)V@raytracer.JGFRayTracerBenchSizeA
+run:()V@raytracer.JGFRayTracerBench$1
+run:()V@raytracer.JGFRayTracerBench$2

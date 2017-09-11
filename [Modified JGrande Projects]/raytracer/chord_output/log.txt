@@ -1,0 +1,453 @@
+Chord run initiated at: Feb 7, 2017 12:00:07 PM
+ENTER: deadlock-java at Tue Feb 07 12:00:08 CET 2017
+ENTER: syncLH-dlog at Tue Feb 07 12:00:08 CET 2017
+ENTER: V at Tue Feb 07 12:00:08 CET 2017
+ENTER: M at Tue Feb 07 12:00:08 CET 2017
+ENTER: RTA
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Iteration: 3
+LEAVE: RTA
+Time: 00:00:07:957 hh:mm:ss:ms
+SAVING dom M size: 9250
+LEAVE: M
+Exclusive time: 00:00:08:144 hh:mm:ss:ms
+Inclusive time: 00:00:08:144 hh:mm:ss:ms
+SAVING dom V size: 79814
+LEAVE: V
+Exclusive time: 00:00:00:224 hh:mm:ss:ms
+Inclusive time: 00:00:08:368 hh:mm:ss:ms
+ENTER: L at Tue Feb 07 12:00:16 CET 2017
+SAVING dom L size: 474
+LEAVE: L
+Exclusive time: 00:00:00:052 hh:mm:ss:ms
+Inclusive time: 00:00:00:052 hh:mm:ss:ms
+ENTER: H at Tue Feb 07 12:00:16 CET 2017
+SAVING dom H size: 7628
+LEAVE: H
+Exclusive time: 00:00:00:088 hh:mm:ss:ms
+Inclusive time: 00:00:00:088 hh:mm:ss:ms
+ENTER: thisMV at Tue Feb 07 12:00:16 CET 2017
+SAVING rel thisMV size: 6786
+LEAVE: thisMV
+Exclusive time: 00:00:00:559 hh:mm:ss:ms
+Inclusive time: 00:00:00:559 hh:mm:ss:ms
+ENTER: syncLV at Tue Feb 07 12:00:17 CET 2017
+SAVING rel syncLV size: 242
+LEAVE: syncLV
+Exclusive time: 00:00:00:070 hh:mm:ss:ms
+Inclusive time: 00:00:00:070 hh:mm:ss:ms
+ENTER: syncLM at Tue Feb 07 12:00:17 CET 2017
+SAVING rel syncLM size: 214
+LEAVE: syncLM
+Exclusive time: 00:00:00:070 hh:mm:ss:ms
+Inclusive time: 00:00:00:070 hh:mm:ss:ms
+ENTER: cipa-0cfa-dlog at Tue Feb 07 12:00:17 CET 2017
+ENTER: T at Tue Feb 07 12:00:17 CET 2017
+SAVING dom T size: 1901
+LEAVE: T
+Exclusive time: 00:00:00:012 hh:mm:ss:ms
+Inclusive time: 00:00:00:012 hh:mm:ss:ms
+ENTER: F at Tue Feb 07 12:00:17 CET 2017
+SAVING dom F size: 6090
+LEAVE: F
+Exclusive time: 00:00:00:033 hh:mm:ss:ms
+Inclusive time: 00:00:00:033 hh:mm:ss:ms
+ENTER: I at Tue Feb 07 12:00:17 CET 2017
+SAVING dom I size: 35374
+LEAVE: I
+Exclusive time: 00:00:00:196 hh:mm:ss:ms
+Inclusive time: 00:00:00:196 hh:mm:ss:ms
+ENTER: Z at Tue Feb 07 12:00:17 CET 2017
+SAVING dom Z size: 14
+LEAVE: Z
+Exclusive time: 00:00:00:072 hh:mm:ss:ms
+Inclusive time: 00:00:00:072 hh:mm:ss:ms
+ENTER: MmethArg at Tue Feb 07 12:00:17 CET 2017
+SAVING rel MmethArg size: 12636
+LEAVE: MmethArg
+Exclusive time: 00:00:00:357 hh:mm:ss:ms
+Inclusive time: 00:00:00:357 hh:mm:ss:ms
+ENTER: VT at Tue Feb 07 12:00:18 CET 2017
+SAVING rel VT size: 79830
+LEAVE: VT
+Exclusive time: 00:00:02:016 hh:mm:ss:ms
+Inclusive time: 00:00:02:016 hh:mm:ss:ms
+ENTER: virtIM at Tue Feb 07 12:00:20 CET 2017
+SAVING rel virtIM size: 19880
+LEAVE: virtIM
+Exclusive time: 00:00:00:431 hh:mm:ss:ms
+Inclusive time: 00:00:00:431 hh:mm:ss:ms
+ENTER: sub at Tue Feb 07 12:00:20 CET 2017
+SAVING rel sub size: 7485
+LEAVE: sub
+Exclusive time: 00:00:00:182 hh:mm:ss:ms
+Inclusive time: 00:00:00:182 hh:mm:ss:ms
+ENTER: IinvkRet at Tue Feb 07 12:00:20 CET 2017
+SAVING rel IinvkRet size: 14747
+LEAVE: IinvkRet
+Exclusive time: 00:00:00:425 hh:mm:ss:ms
+Inclusive time: 00:00:00:425 hh:mm:ss:ms
+ENTER: objNewInst-java at Tue Feb 07 12:00:21 CET 2017
+SAVING rel objNewInstIH size: 0
+SAVING rel objNewInstIM size: 0
+LEAVE: objNewInst-java
+Exclusive time: 00:00:00:036 hh:mm:ss:ms
+Inclusive time: 00:00:00:036 hh:mm:ss:ms
+ENTER: aryNewInstIH at Tue Feb 07 12:00:21 CET 2017
+SAVING rel aryNewInstIH size: 0
+LEAVE: aryNewInstIH
+Exclusive time: 00:00:00:016 hh:mm:ss:ms
+Inclusive time: 00:00:00:016 hh:mm:ss:ms
+ENTER: staticTM at Tue Feb 07 12:00:21 CET 2017
+SAVING rel staticTM size: 2080
+LEAVE: staticTM
+Exclusive time: 00:00:00:052 hh:mm:ss:ms
+Inclusive time: 00:00:00:052 hh:mm:ss:ms
+ENTER: staticTF at Tue Feb 07 12:00:21 CET 2017
+SAVING rel staticTF size: 3312
+LEAVE: staticTF
+Exclusive time: 00:00:00:068 hh:mm:ss:ms
+Inclusive time: 00:00:00:068 hh:mm:ss:ms
+ENTER: MgetStatFldInst at Tue Feb 07 12:00:21 CET 2017
+SAVING rel MgetStatFldInst size: 3031
+LEAVE: MgetStatFldInst
+Exclusive time: 00:00:00:200 hh:mm:ss:ms
+Inclusive time: 00:00:00:200 hh:mm:ss:ms
+ENTER: cha at Tue Feb 07 12:00:21 CET 2017
+SAVING rel cha size: 21688
+LEAVE: cha
+Exclusive time: 00:00:00:970 hh:mm:ss:ms
+Inclusive time: 00:00:00:970 hh:mm:ss:ms
+ENTER: HT at Tue Feb 07 12:00:22 CET 2017
+SAVING rel HT size: 7627
+LEAVE: HT
+Exclusive time: 00:00:00:124 hh:mm:ss:ms
+Inclusive time: 00:00:00:124 hh:mm:ss:ms
+ENTER: MgetInstFldInst at Tue Feb 07 12:00:22 CET 2017
+SAVING rel MgetInstFldInst size: 9906
+LEAVE: MgetInstFldInst
+Exclusive time: 00:00:00:601 hh:mm:ss:ms
+Inclusive time: 00:00:00:601 hh:mm:ss:ms
+ENTER: specIM at Tue Feb 07 12:00:23 CET 2017
+SAVING rel specIM size: 9753
+LEAVE: specIM
+Exclusive time: 00:00:00:234 hh:mm:ss:ms
+Inclusive time: 00:00:00:234 hh:mm:ss:ms
+ENTER: classT at Tue Feb 07 12:00:23 CET 2017
+SAVING rel classT size: 1292
+LEAVE: classT
+Exclusive time: 00:00:00:023 hh:mm:ss:ms
+Inclusive time: 00:00:00:023 hh:mm:ss:ms
+ENTER: MI at Tue Feb 07 12:00:23 CET 2017
+SAVING rel MI size: 35374
+LEAVE: MI
+Exclusive time: 00:00:00:725 hh:mm:ss:ms
+Inclusive time: 00:00:00:725 hh:mm:ss:ms
+ENTER: MobjValAsgnInst at Tue Feb 07 12:00:24 CET 2017
+SAVING rel MobjValAsgnInst size: 7627
+LEAVE: MobjValAsgnInst
+Exclusive time: 00:00:00:281 hh:mm:ss:ms
+Inclusive time: 00:00:00:281 hh:mm:ss:ms
+ENTER: clinitTM at Tue Feb 07 12:00:24 CET 2017
+SAVING rel clinitTM size: 314
+LEAVE: clinitTM
+Exclusive time: 00:00:00:032 hh:mm:ss:ms
+Inclusive time: 00:00:00:032 hh:mm:ss:ms
+ENTER: MobjVarAsgnInst at Tue Feb 07 12:00:24 CET 2017
+SAVING rel MobjVarAsgnInst size: 26101
+LEAVE: MobjVarAsgnInst
+Exclusive time: 00:00:01:036 hh:mm:ss:ms
+Inclusive time: 00:00:01:036 hh:mm:ss:ms
+ENTER: conNewInst-java at Tue Feb 07 12:00:25 CET 2017
+SAVING rel conNewInstIH size: 0
+SAVING rel conNewInstIM size: 0
+LEAVE: conNewInst-java
+Exclusive time: 00:00:00:033 hh:mm:ss:ms
+Inclusive time: 00:00:00:033 hh:mm:ss:ms
+ENTER: IinvkArg0 at Tue Feb 07 12:00:25 CET 2017
+SAVING rel IinvkArg0 size: 32898
+LEAVE: IinvkArg0
+Exclusive time: 00:00:00:758 hh:mm:ss:ms
+Inclusive time: 00:00:00:758 hh:mm:ss:ms
+ENTER: IinvkArg at Tue Feb 07 12:00:26 CET 2017
+SAVING rel IinvkArg size: 49815
+LEAVE: IinvkArg
+Exclusive time: 00:00:01:459 hh:mm:ss:ms
+Inclusive time: 00:00:01:459 hh:mm:ss:ms
+ENTER: MmethRet at Tue Feb 07 12:00:27 CET 2017
+SAVING rel MmethRet size: 3476
+LEAVE: MmethRet
+Exclusive time: 00:00:00:196 hh:mm:ss:ms
+Inclusive time: 00:00:00:196 hh:mm:ss:ms
+ENTER: clsForNameIT at Tue Feb 07 12:00:28 CET 2017
+SAVING rel clsForNameIT size: 0
+LEAVE: clsForNameIT
+Exclusive time: 00:00:00:020 hh:mm:ss:ms
+Inclusive time: 00:00:00:020 hh:mm:ss:ms
+ENTER: MputInstFldInst at Tue Feb 07 12:00:28 CET 2017
+SAVING rel MputInstFldInst size: 3802
+LEAVE: MputInstFldInst
+Exclusive time: 00:00:00:338 hh:mm:ss:ms
+Inclusive time: 00:00:00:338 hh:mm:ss:ms
+ENTER: MputStatFldInst at Tue Feb 07 12:00:28 CET 2017
+SAVING rel MputStatFldInst size: 1141
+LEAVE: MputStatFldInst
+Exclusive time: 00:00:00:091 hh:mm:ss:ms
+Inclusive time: 00:00:00:091 hh:mm:ss:ms
+ENTER: statIM at Tue Feb 07 12:00:28 CET 2017
+SAVING rel statIM size: 5741
+LEAVE: statIM
+Exclusive time: 00:00:00:136 hh:mm:ss:ms
+Inclusive time: 00:00:00:136 hh:mm:ss:ms
+Starting command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_alias_cipa_0cfa.dlog '
+Relation IHM: 301476 nodes, 1.0252719E7 elements (I0,M0,H0)
+Relation reachableT: 143 nodes, 127.0 elements (T0)
+Relation VHfilter: 52619 nodes, 5.0719991E7 elements (V0,H0)
+Relation VH: 6744 nodes, 8768.0 elements (V0,H0)
+Relation FH: 614 nodes, 53.0 elements (H0,F0)
+Relation HFH: 4189 nodes, 2708.0 elements (H0,F0,H1)
+Relation rootM: 143 nodes, 39.0 elements (M0)
+Relation reachableI: 420 nodes, 964.0 elements (I0)
+Relation reachableM: 338 nodes, 398.0 elements (M0)
+Relation IM: 3392 nodes, 864.0 elements (I0,M0)
+Relation MM: 2584 nodes, 659.0 elements (M0,M1)
+Finished command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_alias_cipa_0cfa.dlog '
+LEAVE: cipa-0cfa-dlog
+Exclusive time: 00:00:04:851 hh:mm:ss:ms
+Inclusive time: 00:00:16:009 hh:mm:ss:ms
+Starting command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_lock_syncLH.dlog '
+Relation syncLH: 251 nodes, 66.0 elements (L0,H0)
+Finished command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_lock_syncLH.dlog '
+LEAVE: syncLH-dlog
+Exclusive time: 00:00:00:449 hh:mm:ss:ms
+Inclusive time: 00:00:25:666 hh:mm:ss:ms
+ENTER: thrsen-cicg-java at Tue Feb 07 12:00:34 CET 2017
+ENTER: thrSenCICG-dlog at Tue Feb 07 12:00:34 CET 2017
+ENTER: threadStartI at Tue Feb 07 12:00:34 CET 2017
+SAVING rel threadStartI size: 11
+LEAVE: threadStartI
+Exclusive time: 00:00:00:036 hh:mm:ss:ms
+Inclusive time: 00:00:00:036 hh:mm:ss:ms
+ENTER: threadIM-dlog at Tue Feb 07 12:00:34 CET 2017
+ENTER: threadAllocI at Tue Feb 07 12:00:34 CET 2017
+SAVING rel threadAllocI size: 11
+LEAVE: threadAllocI
+Exclusive time: 00:00:00:032 hh:mm:ss:ms
+Inclusive time: 00:00:00:032 hh:mm:ss:ms
+ENTER: excludeThreadStartI at Tue Feb 07 12:00:34 CET 2017
+SAVING rel excludeThreadStartI size: 9
+LEAVE: excludeThreadStartI
+Exclusive time: 00:00:00:043 hh:mm:ss:ms
+Inclusive time: 00:00:00:043 hh:mm:ss:ms
+Starting command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_thread_threadIM.dlog '
+Relation threadIM: 35 nodes, 2.0 elements (I0,M0)
+Relation nonMainThreadM: 13 nodes, 2.0 elements (M0)
+Finished command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_thread_threadIM.dlog '
+LEAVE: threadIM-dlog
+Exclusive time: 00:00:00:958 hh:mm:ss:ms
+Inclusive time: 00:00:01:034 hh:mm:ss:ms
+Starting command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_thread_thrSenCICG.dlog '
+Relation thrSenRootM: 145 nodes, 41.0 elements (M0)
+Relation thrSenReachableM: 336 nodes, 392.0 elements (M0)
+Relation thrSenIM: 3337 nodes, 851.0 elements (I0,M0)
+Relation thrSenMM: 2542 nodes, 649.0 elements (M0,M1)
+Finished command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_thread_thrSenCICG.dlog '
+LEAVE: thrSenCICG-dlog
+Exclusive time: 00:00:00:629 hh:mm:ss:ms
+Inclusive time: 00:00:01:699 hh:mm:ss:ms
+LEAVE: thrsen-cicg-java
+Exclusive time: 00:00:00:000 hh:mm:ss:ms
+Inclusive time: 00:00:01:699 hh:mm:ss:ms
+ENTER: deadlock-parallel-include-dlog at Tue Feb 07 12:00:35 CET 2017
+ENTER: P at Tue Feb 07 12:00:35 CET 2017
+SAVING dom P size: 193298
+LEAVE: P
+Exclusive time: 00:00:00:248 hh:mm:ss:ms
+Inclusive time: 00:00:00:248 hh:mm:ss:ms
+ENTER: thread-java at Tue Feb 07 12:00:36 CET 2017
+SAVING dom A size: 4
+SAVING rel threadAM size: 3
+LEAVE: thread-java
+Exclusive time: 00:00:00:064 hh:mm:ss:ms
+Inclusive time: 00:00:00:064 hh:mm:ss:ms
+ENTER: PL at Tue Feb 07 12:00:36 CET 2017
+SAVING rel PL size: 474
+LEAVE: PL
+Exclusive time: 00:00:00:032 hh:mm:ss:ms
+Inclusive time: 00:00:00:032 hh:mm:ss:ms
+ENTER: mhp-dlog at Tue Feb 07 12:00:36 CET 2017
+ENTER: MPhead at Tue Feb 07 12:00:36 CET 2017
+SAVING rel MPhead size: 8866
+LEAVE: MPhead
+Exclusive time: 00:00:00:245 hh:mm:ss:ms
+Inclusive time: 00:00:00:245 hh:mm:ss:ms
+ENTER: PP at Tue Feb 07 12:00:36 CET 2017
+SAVING rel PP size: 200576
+LEAVE: PP
+Exclusive time: 00:00:05:097 hh:mm:ss:ms
+Inclusive time: 00:00:05:097 hh:mm:ss:ms
+ENTER: PI at Tue Feb 07 12:00:41 CET 2017
+SAVING rel PI size: 35374
+LEAVE: PI
+Exclusive time: 00:00:00:950 hh:mm:ss:ms
+Inclusive time: 00:00:00:950 hh:mm:ss:ms
+ENTER: MPtail at Tue Feb 07 12:00:42 CET 2017
+SAVING rel MPtail size: 8866
+LEAVE: MPtail
+Exclusive time: 00:00:00:236 hh:mm:ss:ms
+Inclusive time: 00:00:00:236 hh:mm:ss:ms
+Starting command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_mhp_mhp.dlog '
+Relation threadPM: 39 nodes, 2.0 elements (M0,P0)
+Relation threadPH: 52 nodes, 2.0 elements (P0,P1)
+Relation simpleIM: 3365 nodes, 861.0 elements (M0,I0)
+Relation simplePM: 4447 nodes, 861.0 elements (M0,P0)
+Relation simplePH: 6124 nodes, 861.0 elements (P0,P1)
+Relation simplePT: 6103 nodes, 861.0 elements (P0,P1)
+Relation PathEdge: 1047 nodes, 18747.0 elements (P0,A0,A1,A2)
+Relation SummEdge: 1465 nodes, 4057.0 elements (P0,A0,A1,A2)
+Relation mhp: 611 nodes, 11077.0 elements (P0,A0,A1)
+Finished command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_mhp_mhp.dlog '
+LEAVE: mhp-dlog
+Exclusive time: 00:00:02:234 hh:mm:ss:ms
+Inclusive time: 00:00:08:762 hh:mm:ss:ms
+Starting command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_deadlock_parallel_include.dlog '
+Relation mhpTLTL: 125 nodes, 288.0 elements (L0,A0,A1,L1)
+Finished command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_deadlock_parallel_include.dlog '
+LEAVE: deadlock-parallel-include-dlog
+Exclusive time: 00:00:00:467 hh:mm:ss:ms
+Inclusive time: 00:00:09:577 hh:mm:ss:ms
+ENTER: deadlock-escaping-include-dlog at Tue Feb 07 12:00:45 CET 2017
+ENTER: TM at Tue Feb 07 12:00:45 CET 2017
+SAVING rel TM size: 9250
+LEAVE: TM
+Exclusive time: 00:00:00:129 hh:mm:ss:ms
+Inclusive time: 00:00:00:129 hh:mm:ss:ms
+ENTER: flowins-thresc-dlog at Tue Feb 07 12:00:45 CET 2017
+ENTER: E at Tue Feb 07 12:00:45 CET 2017
+SAVING dom E size: 33142
+LEAVE: E
+Exclusive time: 00:00:00:119 hh:mm:ss:ms
+Inclusive time: 00:00:00:119 hh:mm:ss:ms
+ENTER: MV at Tue Feb 07 12:00:45 CET 2017
+SAVING rel MV size: 79814
+LEAVE: MV
+Exclusive time: 00:00:01:547 hh:mm:ss:ms
+Inclusive time: 00:00:01:547 hh:mm:ss:ms
+ENTER: MP at Tue Feb 07 12:00:47 CET 2017
+SAVING rel MP size: 175566
+LEAVE: MP
+Exclusive time: 00:00:03:836 hh:mm:ss:ms
+Inclusive time: 00:00:03:836 hh:mm:ss:ms
+ENTER: EV at Tue Feb 07 12:00:50 CET 2017
+SAVING rel EV size: 28131
+LEAVE: EV
+Exclusive time: 00:00:00:581 hh:mm:ss:ms
+Inclusive time: 00:00:00:581 hh:mm:ss:ms
+Starting command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_escape_flowins_thresc.dlog '
+Relation escH: 181 nodes, 438.0 elements (H0)
+Relation escPVH: 11129 nodes, 1803123.0 elements (V0,H0,P0)
+Finished command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_escape_flowins_thresc.dlog '
+LEAVE: flowins-thresc-dlog
+Exclusive time: 00:00:01:129 hh:mm:ss:ms
+Inclusive time: 00:00:07:212 hh:mm:ss:ms
+Starting command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_deadlock_escaping_include.dlog '
+Relation escLH: 75 nodes, 4.0 elements (L0,H0)
+Finished command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_deadlock_escaping_include.dlog '
+LEAVE: deadlock-escaping-include-dlog
+Exclusive time: 00:00:00:810 hh:mm:ss:ms
+Inclusive time: 00:00:08:151 hh:mm:ss:ms
+ENTER: deadlock-nonreent-include-dlog at Tue Feb 07 12:00:53 CET 2017
+ENTER: ML at Tue Feb 07 12:00:53 CET 2017
+SAVING rel ML size: 474
+LEAVE: ML
+Exclusive time: 00:00:00:028 hh:mm:ss:ms
+Inclusive time: 00:00:00:028 hh:mm:ss:ms
+ENTER: transLL-dlog at Tue Feb 07 12:00:53 CET 2017
+ENTER: LL at Tue Feb 07 12:00:53 CET 2017
+SAVING rel LL size: 7
+LEAVE: LL
+Exclusive time: 00:00:00:104 hh:mm:ss:ms
+Inclusive time: 00:00:00:104 hh:mm:ss:ms
+Starting command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_lock_transLL.dlog '
+Relation transLL: 76 nodes, 7.0 elements (L0,L1)
+Finished command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_lock_transLL.dlog '
+LEAVE: transLL-dlog
+Exclusive time: 00:00:00:220 hh:mm:ss:ms
+Inclusive time: 00:00:00:324 hh:mm:ss:ms
+ENTER: transLI-dlog at Tue Feb 07 12:00:53 CET 2017
+ENTER: LI-dlog at Tue Feb 07 12:00:53 CET 2017
+ENTER: LP at Tue Feb 07 12:00:53 CET 2017
+SAVING rel LP size: 7673
+LEAVE: LP
+Exclusive time: 00:00:00:200 hh:mm:ss:ms
+Inclusive time: 00:00:00:200 hh:mm:ss:ms
+Starting command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_lock_LI.dlog '
+Relation LI: 5114 nodes, 1787.0 elements (I0,L0)
+Finished command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_lock_LI.dlog '
+LEAVE: LI-dlog
+Exclusive time: 00:00:00:930 hh:mm:ss:ms
+Inclusive time: 00:00:01:130 hh:mm:ss:ms
+Starting command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_lock_transLI.dlog '
+Relation transLI: 5111 nodes, 1827.0 elements (L0,I0)
+Finished command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_lock_transLI.dlog '
+LEAVE: transLI-dlog
+Exclusive time: 00:00:00:389 hh:mm:ss:ms
+Inclusive time: 00:00:01:519 hh:mm:ss:ms
+Starting command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_deadlock_nonreent_include.dlog '
+Relation syncTLL: 145 nodes, 36.0 elements (A0,L0,L1)
+Finished command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_deadlock_nonreent_include.dlog '
+LEAVE: deadlock-nonreent-include-dlog
+Exclusive time: 00:00:00:544 hh:mm:ss:ms
+Inclusive time: 00:00:02:415 hh:mm:ss:ms
+ENTER: deadlock-nongrded-include-dlog at Tue Feb 07 12:00:55 CET 2017
+ENTER: reachableAM-dlog at Tue Feb 07 12:00:55 CET 2017
+Starting command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_thread_reachableAM.dlog '
+Relation reachableAM: 375 nodes, 387.0 elements (M0,A0)
+Relation threadReachableM: 272 nodes, 284.0 elements (M0)
+Finished command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_thread_reachableAM.dlog '
+LEAVE: reachableAM-dlog
+Exclusive time: 00:00:00:412 hh:mm:ss:ms
+Inclusive time: 00:00:00:412 hh:mm:ss:ms
+Starting command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_deadlock_nongrded_include.dlog '
+Relation guarded: 22 nodes, 1.0 elements (A0,L0,L1,A1)
+Finished command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_deadlock_nongrded_include.dlog '
+LEAVE: deadlock-nongrded-include-dlog
+Exclusive time: 00:00:00:529 hh:mm:ss:ms
+Inclusive time: 00:00:00:941 hh:mm:ss:ms
+ENTER: deadlock-dlog at Tue Feb 07 12:00:56 CET 2017
+Starting command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_deadlock_deadlock.dlog '
+Relation deadlock: 0 nodes, 0.0 elements ((none))
+Finished command: 'java -ea -Xmx1024m -cp C:\DAIS\Tools\chord-bin-2.1\chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\bddbddb net.sf.bddbddb.Solver C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\dlog\chord_analyses_deadlock_deadlock.dlog '
+LEAVE: deadlock-dlog
+Exclusive time: 00:00:00:321 hh:mm:ss:ms
+Inclusive time: 00:00:00:321 hh:mm:ss:ms
+Created C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\stylesheet.css
+Created C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\front.html
+Created: C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\raytracer\Sphere.java.html
+Created: C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\jgfutil\JGFSection3.java.html
+Created: C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\raytracer\View.java.html
+Created: C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\raytracer\Primitive.java.html
+Created: C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\raytracer\Barrier.java.html
+Created: C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\raytracer\JGFRayTracerBenchSizeA.java.html
+Created: C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\raytracer\Interval.java.html
+Created: C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\raytracer\JGFRayTracerBench.java.html
+Created: C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\raytracer\JGFRayTracerBenchSizeB.java.html
+Created: C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\raytracer\Surface.java.html
+Created: C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\jgfutil\JGFInstrumentor.java.html
+Created: C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\raytracer\RayTracer.java.html
+Created: C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\raytracer\Isect.java.html
+Created: C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\raytracer\Ray.java.html
+Created: C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\raytracer\TournamentBarrier.java.html
+Created: C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\raytracer\Light.java.html
+Created: C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\jgfutil\JGFTimer.java.html
+Created: C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\raytracer\Scene.java.html
+Created: C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\jgfutil\JGFSection1.java.html
+Created: C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\raytracer\Vec.java.html
+Created: C:\DAIS\deadlock_benchmarks\pjbench\java_grande\raytracer\chord_output\jgfutil\JGFSection2.java.html
+LEAVE: deadlock-java
+Exclusive time: 00:00:25:914 hh:mm:ss:ms
+Inclusive time: 00:00:51:580 hh:mm:ss:ms
+Chord run completed at: Feb 7, 2017 12:00:59 PM
+Total time: 00:00:52:779 hh:mm:ss:ms
